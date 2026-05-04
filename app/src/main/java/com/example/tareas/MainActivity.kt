@@ -17,6 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tareas.ui.theme.TareasTheme
+import com.example.tareas.ui.theme.pantallaCafe
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PetProfileScreen()
+                    // ¡AQUÍ ES DONDE DEBES LLAMARLA!
+                    pantallaCafe()
                 }
             }
         }
